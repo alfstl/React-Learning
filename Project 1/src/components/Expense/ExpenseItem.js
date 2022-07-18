@@ -19,9 +19,6 @@ const ExpenseItem = (props) => {
     console.log(item);
   };
 
-  console.log("excuted at component level");
-  console.log(item);
-
   return (
     <Card className="expense-item">
       <ExpesneDate date={props.date}></ExpesneDate>
